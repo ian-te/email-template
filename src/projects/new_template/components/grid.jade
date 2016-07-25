@@ -1,0 +1,18 @@
+mixin col(col)
+    |<!--[if (gte mso 9)|(IE)]><td valign="top" width="#{col/12*100}%"><![endif]-->
+    table(cellspacing="0" valign="top" cellpadding="0" class="col col-"+col )&attributes(attributes)
+        tr
+            td(style="padding: 20px;")
+                block
+    |<!--[if (gte mso 9)|(IE)]></td><![endif]-->
+
+
+mixin container(valign)
+
+    table(class="container" cellspacing="0" cellpadding="0")&attributes(attributes)
+        tr
+            td.bg(align="center" valign=valign)
+                |<!--[if (gte mso 9)|(IE)]> <table cellspacing="0" cellpadding="0" width="900" align="center"><tr><![endif]-->
+                block
+                |<!--[if (gte mso 9)|(IE)]></tr></table><![endif]-->
+

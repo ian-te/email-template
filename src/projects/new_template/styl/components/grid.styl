@@ -1,0 +1,50 @@
+generate-grid(total, gutter, prefix)
+
+	for n, x in 1..total
+		.col-{n}
+			max-width (670/(12/n))px
+			width:100%;
+			//min-width: (600/(12/n))px
+
+
+
+generate-grid(12, 50,'-full')
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+}
+.col{
+	display: inline-table;
+    vertical-align: top;
+    font-size: 15px;
+	&>tbody>tr>td{
+		padding: 20px;
+	}
+}
+.footer .col>tbody>tr>td{
+	padding-top:0;
+	padding-bottom: 10px;
+}
+[valign="middle"]
+	.col{
+		vertical-align middle;
+	}
+
+.spacer{
+	height: 20px;
+	max-width: 800px;
+}
+@media(max-width:600px){
+	.col{
+		display:block;
+		float:none;
+		width: 100%;
+	}
+}
