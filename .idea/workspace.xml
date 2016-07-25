@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7b37a2a5-2415-44e5-887d-86c0a3ccb58b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/new_template/index.html" afterPath="$PROJECT_DIR$/build/new_template/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/new_template/index.jade" afterPath="$PROJECT_DIR$/src/projects/new_template/index.jade" />
     </list>
     <ignored path="static-emails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/projects/new_template/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -67,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -112,12 +113,12 @@
         <option value="$PROJECT_DIR$/src/projects/new_template/components/spacer.jade" />
         <option value="$PROJECT_DIR$/src/projects/new_template/styl/components/typography.styl" />
         <option value="$PROJECT_DIR$/src/projects/new_template/styl/components/grid.styl" />
-        <option value="$PROJECT_DIR$/src/projects/new_template/index.jade" />
         <option value="$PROJECT_DIR$/src/projects/new_template/components/grid.jade" />
         <option value="$PROJECT_DIR$/build/_inline/new_template/index-inline.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/projects/new_template/index.jade" />
       </list>
     </option>
   </component>
@@ -323,7 +324,7 @@
       <workItem from="1468313670379" duration="874000" />
       <workItem from="1468397831415" duration="5290000" />
       <workItem from="1468569539508" duration="3000" />
-      <workItem from="1469413361707" duration="9586000" />
+      <workItem from="1469413361707" duration="9978000" />
     </task>
     <task id="LOCAL-00001" summary="progress">
       <created>1468403035646</created>
@@ -336,7 +337,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33830000" />
+    <option name="totallyTimeSpent" value="34222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="960" height="1053" extended-state="4" />
@@ -734,14 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/new_template/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/new_template/components/grid.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -780,6 +773,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/new_template/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding />
         </state>
       </provider>
